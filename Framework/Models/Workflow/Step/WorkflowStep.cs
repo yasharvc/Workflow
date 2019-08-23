@@ -16,5 +16,6 @@ namespace Models.Workflow.Step
 		public ApproveMethod Approvement { get; set; }
 		public bool Abstainable { get; set; }
 		public List<BaseProperty> Properties { get; set; }
+		public event WorkflowArgs StepIntoNext;
 	}
 }

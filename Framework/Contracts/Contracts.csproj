@@ -9,8 +9,4 @@
     <Folder Include="Exception\System\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Models\Models.csproj" />
-  </ItemGroup>
-
 </Project>

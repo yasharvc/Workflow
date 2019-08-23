@@ -1,6 +1,4 @@
-﻿using Models.Workflow.Step;
-
-namespace Contracts
+﻿namespace Contracts
 {
-	public delegate WorkflowStep WorkflowStepArgs();
+	public delegate T GenericArgs<T>();
 }
